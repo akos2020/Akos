@@ -1,0 +1,323 @@
+/*  position , float , display */
+
+body {
+    font-family:'Heiti SC';
+}
+
+* {
+    font-family:'Heiti SC';
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+a {
+    color: black !important;
+    cursor: pointer;
+}
+
+header {
+    background-color: #211D1E;
+}
+
+footer {
+    background-color: #211D1E;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-top: 10px;
+    color: #99afba;
+    font-size: 1rem;
+}
+
+section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+section.two {
+    background-color: #f1f1f1;
+}
+
+div.color-background {
+    background-color: #211D1E !important;
+}
+
+div#feature-container {
+    width: 50%; 
+
+}
+
+
+div.row {
+padding:5%;
+ margin: 10%;
+   border-radius: 25px;
+    /* -moz-box-shadow:    3px 3px 5px 6px gray;
+    -webkit-box-shadow: 3px 3px 5px 6px gray;
+    box-shadow:         3px 3px 5px 6px gray;*/
+background-color: white;
+}
+
+
+div#a,#b {
+    margin-top, bottom: 30%;
+    margin-left:auto;
+
+}
+/*
+div#col-2 {
+    display: block;
+    align-content:right;
+}*/
+
+
+div.color-background {
+    background-color: #f1f1f1;
+    padding: 5%;
+}
+
+div#color-background {
+    width: 45%;
+}
+
+
+
+div.form-container {
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+
+
+p {
+    padding-top: 10px;
+
+    color: black;
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
+    font-size: 80%;
+}
+
+
+p#two {
+    color: #777E86;
+    font-size: 80%;
+    text-align: center;
+}
+
+p#section-three {
+    color: white;
+    font-size: 85%;
+    text-align: left;
+}
+
+p#section-two {
+    color: black;
+    font-size: 70%;
+    text-align: center;
+}
+
+p#footer {
+    color: white;
+    font-size: 60%;
+    text-align: left;
+}
+
+
+
+hr {
+    max-width: 70%;
+    margin: auto;
+    display: block;
+
+}
+
+input {
+
+    width: 50%;
+    height: 50px;
+    margin-right:1%;
+
+    box-shadow: 20px 8px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: white !important;
+}
+
+
+
+.btn {
+    color: #fff;
+    background-color: #211D1E;
+    border-color: #211D1E;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    height: 50px;
+
+    transition: all 0.3s ease 0s;
+    cursor: pointer ;
+    outline: none;
+}
+
+.btn:hover{
+     background: #737373;
+}
+
+
+h2, h3, h4 {
+    color: #211D1E;
+}
+
+h2 {
+    
+    font-family:'STHeitiSC-Medium', 'Heiti SC medium';
+    font-size: 300%;
+    text-align: center;
+
+    text-shadow: 1px 0px 1pt #5A589F;
+}
+
+h2 {
+     -webkit-animation: fadein 7s ; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 7s; /* Firefox < 16 */
+        -ms-animation: fadein 7s; /* Internet Explorer */
+         -o-animation: fadein 7s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+h3 {
+     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 7s; /* Firefox < 16 */
+        -ms-animation: fadein 7s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+
+h3 {
+    color: #211D1E;
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
+    font-size: 160%;
+    text-align: center;
+    font-weight: 100 !important;
+    padding-bottom: 25px;
+}
+
+h4 {
+    color: #211D1E;
+    font-family:'STHeitiSC-Medium', 'Heiti SC medium';
+    font-size: 250%;
+    text-align: center;
+    text-shadow: 1px 0px 1pt #5A589F;
+}
+
+h4.white {
+    color:white;
+    font-family:'STHeitiSC-Medium', 'Heiti SC medium';
+    font-size: 120%;
+    text-align: center;
+}
+
+
+h5 {
+    color:black;
+    font-family:'STHeitiSC-Medium', 'Heiti SC medium';
+    font-size: 120%;
+    text-align: left;
+}
+
+
+h5.b {
+    color:black;
+}
+
+
+img.rounded {
+    display:inline-block;
+}
+
+
+
+
+.akoscc {
+    display: block;
+    height: 50%;
+    width: 50%;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.logotext {
+    /*border-radius: 50%;
+    /* border:1px solid #C5CDCE;*/
+   
+    height: 15%;
+    width: 15%;
+    margin-left: 12%;
+
+    background-color:none;
+}
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 700px) {
+    .container-center {
+        width: 90%;
+    }
+
+    @media (max-width: 700px) {
+    .container-fluid {
+        width: 80% !important;
+    }
+
+  @media (max-width: 900px) {
+    .img-fluid {
+        width:50%;
+        padding-bottom:10%;
+    }
+
+    @media (max-width: 700px) {
+    .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}}
+
+@media (max-width: 700px) {
+    .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}}
+
+@media (max-width: 900px) {
+    h2, h4 {
+        font-size:200%;
+ }}
+
+ @media (max-width: 900px) {
+    h3 {
+        font-size:100%;
+ }}
+
+@media (max-width: 900px) {
+    p#section-two {
+        font-size:40%;
+ }}
+
+@media (max-width: 900px) {
+    p#section-three {
+        font-size:60%;
+ }}
+ 
+ @media (max-width: 900px) {
+    p#footer {
+        font-size:30%;
+ }}
+
+
