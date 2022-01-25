@@ -119,6 +119,7 @@ p#footer {
     color: white;
     font-size: 60%;
     text-align: left;
+    white-space: nowrap;
 }
 
 
