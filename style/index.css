@@ -163,7 +163,7 @@ img.product {
 
 @media (max-width: 991px) {
     body {
-    overflow-x: hidden;
+    overflow: hidden;
     }  
     h2, h3 {
     text-align: center;
