@@ -164,6 +164,7 @@ img.product {
 @media (max-width: 991px) {
     h2, h3 {
     text-align: center;
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
     }
     h2 {
     font-size: 200%;
