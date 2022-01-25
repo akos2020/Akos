@@ -4,21 +4,23 @@ html {
 
 body {
     font-family:'Heiti SC';
-    /*overflow-y: hidden; /* hides scrollbar when unnecessary */
     height: 100%
     margin: 0;
+    /*overflow-y: hidden; /* hide veritcal scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     -webkit-box-shadow: none !important;
     background-color: transparent;
-  }
-  body::-webkit-scrollbar {
+}
+  
+body::-webkit-scrollbar {
     width: 3px !important;
     background-color: transparent;
   }
-  body::-webkit-scrollbar-thumb {
+  
+body::-webkit-scrollbar-thumb {
     background-color: transparent;
   }
 
