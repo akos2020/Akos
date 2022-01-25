@@ -162,6 +162,9 @@ img.product {
     }
 
 @media (max-width: 991px) {
+    body {
+    overflow-x: hidden;
+    }  
     h2, h3 {
     text-align: center;
     font-family:'STHeitiSC-Light', 'Heiti SC light' !important;
