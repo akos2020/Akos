@@ -75,6 +75,10 @@ div#row-3 {
     justify-content: center ;
 }
 
+.col-lg-7 {
+    max-width:100%;
+}
+
 .form-group {
     max-width: 400%;
     height: 50px;
