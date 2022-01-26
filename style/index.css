@@ -184,9 +184,6 @@ img.product {
     font-size: 75%;
     white-space: break-spaces;
     }
-    .break-word {
-    word-break: break-word;
-    }
     .col-sm-10, col-xs-2 {
     max-width: 100%;
     }
