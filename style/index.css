@@ -186,6 +186,10 @@ img.product {
     .col-sm-10, col-xs-2 {
     max-width: 100%;
     }
+    .row {
+    margin-left: 2%;
+    margin-right: 2%;
+    }
     input {
     font-size: 60%;
     }
