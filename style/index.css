@@ -185,6 +185,9 @@ img.product {
     white-space: break-spaces;
     }
     span {
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
+    font-size: 75%;
+    font-weight: 100 !important;
     display: inline-block;
     } 
     .col-sm-10, col-xs-2 {
@@ -201,7 +204,7 @@ img.product {
     font-size:57%;
     }
     button {
-    max-width: 20%;
+    max-width: 25%;
     }
     .justify-content-center {
     justify-content: center ;
