@@ -71,8 +71,8 @@ div#row-3 {
     padding-top: 3%;
 }
 
-.col-sm-9 {
-    max-width: 100%;
+.justify-content-center {
+    justify-content: center ;
 }
 
 .form-group {
