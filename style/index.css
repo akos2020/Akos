@@ -182,6 +182,9 @@ img.product {
     .col-sm-9 {
     max-width: 100%;
     }
+    .col-lg-7 {
+    max-width:100%;
+    }
     input {
     font-size: 60%;
     }
