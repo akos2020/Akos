@@ -103,7 +103,7 @@ input {
 }
 
 .btn {
-   margin-left:1%;
+    margin-left:1%;
     color: #fff; /*text color*/
     background-color: #211B1B;
     border-color: #211B1B;
@@ -204,6 +204,7 @@ img.product {
     }
     button {
     max-width: 25%;
+    border-color: #D6C685;
     }
     .justify-content-center {
     justify-content: center ;
