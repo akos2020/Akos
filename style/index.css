@@ -71,6 +71,9 @@ div#row-3 {
     padding-top: 3%;
 }
 
+.col-sm-9 {
+    max-width: 100%;
+     
 .form-group {
     max-width: 400%;
     height: 50px;
@@ -127,6 +130,7 @@ h3 { /*Second Sentence*/
     font-weight: 100 !important;
     padding-bottom: 25px;
     text-align: center;
+    white-space: nowrap;
 }
 
 p#footer {
@@ -189,11 +193,9 @@ img.product {
     .justify-content-center {
     justify-content: center ;
     }
-
     img.product {
     max-width:60%;
     }
-    
     .center-section img { /*Centers img.product content inside column*/
     margin: auto;    
     display: block;
