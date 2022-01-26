@@ -198,13 +198,13 @@ img.product {
     }
     input {
     font-size: 60%;
+    border-color: #D6C685;
     }
     .btn {
     font-size:57%;
     }
     button {
     max-width: 25%;
-    border-color: #D6C685;
     }
     .justify-content-center {
     justify-content: center ;
