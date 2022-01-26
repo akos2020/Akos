@@ -138,6 +138,10 @@ h3 { /*Second Sentence*/
     white-space: nowrap;
 }
 
+.break-word {
+  word-break: break-word;
+}
+
 p#footer {
     color: white;
     font-size: 60%;
