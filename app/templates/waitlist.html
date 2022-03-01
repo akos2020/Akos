@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113230407-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113230407-1');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+
+    <title>Akos</title>
+    <meta name="description" content="Akos - A Cash Account for Food Businesses">
+    <meta charset="UTF-8">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container-center pt-2">
+         <div class="container-fluid container-center container-main">
+          <img class="logotext" alt="LogoText" src="../static/akostxt.png"></a>
+      </div>
+    </header>
+
+    <section class="one">
+      <div class="form-container">
+      <div class="container-center pt-2">
+      
+      <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-7 col-md-10 col-sm-10 col-xs-2">
+        <div class="short-div">
+
+          <h2>Thank you!</h2>
+          <h3>You're in the queue for the private beta. Don't forget to save your unique link!</h3>
+
+          {% block content %}
+
+          {% set ROOT = config['PROJECT_URL'] %}
+
+          {% set url = ROOT + url_for('main.index') + '?user=' + uuid %}
+
+          <div class="container">
+              <div class="row">
+                  <div class="people_ahead col-md-3 rounded text-center">
+                      <p>Ahead of you</p>
+                      <h4>{{ "{:,.0f}".format(waitlist_position) }}</h4>
+                  </div>
+                  <div class="friends_referred col-md-3 rounded text-center">
+                      <p>Referred</p>
+                      <h4>{{ completed_referrals }}</h4>
+                  </div>
+              </div>
+          </div>
+
+          <br>
+
+          <h3>Want priority entry?</h3>
+          <p>Skip the waitlist by referring friends and business owners. 
+
+          <br>
+
+          <p>Share your unique link: 
+          <span>  
+          <u>{{ url }}</u></p>
+          </span>
+
+          {% endblock %}
+
+          <br>
+
+        </div>
+        </div>
+
+          <div class="col-lg-5 col-md-9 col-sm-9 col-xs-2 center-section" id="product"><img class="product" alt="doublescreen" src="../static/product.png"></a></div>
+  
+       </div>
+
+      </div>
+      </div>
+
+      </div>
+      </div>
+	  </section>
+
+   <footer>	
+     <div class="container-fluid container-center container-main" id="color-background">
+      <p id="footer"></p>
+     </div>
+   </footer> 
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21432286.js"></script>
+<!-- End of HubSpot Embed Code -->
+  </body>
+</html>
