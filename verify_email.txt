@@ -1,0 +1,7 @@
+Hello there,
+You're now in the Akos queue!
+Want priority entry? The more friends and business owners you refer, the more you can skip ahead in the queue and the faster you get access.
+Simply share your link: {{ url_for('main.waitlist') }}
+You can always check your queue rank by going back to https://tryakos.com and inserting your email.
+Cheers,
+The Akos Team
