@@ -1,0 +1,180 @@
+html {
+    margin-right: none !important;
+}
+
+body {
+    font-family:'Heiti SC';
+    overflow: hidden; /* hides scrollbar when unnecessary */
+}
+
+* {
+    font-family:'Heiti SC';
+    
+    position: relative;
+}
+
+a {
+    color: black !important;
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+}
+
+footer {
+    background-color: #FF9C6C;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+div#email-box {
+     margin-left: 10%;
+     margin-right: 10%;
+     position: left;
+}
+
+div.container {
+    display:block;
+    margin: auto;
+    vertical-align:middle;
+}
+
+div.form-container {
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+.form-group {
+    max-width: 400%;
+    height: 50px;
+    align-content: center;
+    
+    display:block;
+    margin: 0 auto;
+    vertical-align:middle;
+}
+
+input {
+    font-size:70%;
+    margin-right:1%;
+    height: 40px;
+    width: 60%;
+    
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: white !important;
+}
+
+.btn {
+    font-size:70%;
+    max-width:20%;
+    margin-left:1%;
+    color: #fff;
+    background-color: #FF9C6C;
+    border-color: #FF9C6C;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    height: 40px;
+
+    transition: all 0.3s ease 0s;
+    cursor: pointer ;
+    outline: none;
+}
+
+.btn:hover{
+     background: #211B1B;
+     border-color: #211B1B;
+}
+
+h2 { /*Banking for Restaurants*/
+    color: #FF9B6C;
+    font-family:'STHeitiSC-Medium', 'Heiti SC medium';
+    font-size:300%; 
+    white-space: nowrap;
+}
+
+h3 { /*Second Sentence*/
+    color: #211D1E;
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
+    font-size: 120%;
+    font-weight: 100 !important;
+    padding-bottom: 25px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+p#footer {
+    color: white;
+    font-size: 60%;
+    text-align: left;
+}
+
+img.background {
+    max-width: 70%;
+    opacity:0.6;   
+    padding-top: 10%;
+}
+
+.people_ahead
+{
+  margin-right: 20px;
+}
+
+img.logotext {
+    background-color:none;
+    height: 10%;
+    margin-left: 12%;
+    width: 10%;  
+}
+
+img.product {
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    h2, h3 {
+    text-align: center;
+    }
+    h2 {
+    font-size: 200%;
+    }
+    h3 {
+    font-size: 80%;
+    }
+    .col-sm-9 {
+    max-width: 100%;
+    }
+    input {
+        font-size: 60%;
+    }
+    .btn {
+    font-size:1rem;
+    }
+    
+    span {
+    font-family:'STHeitiSC-Light', 'Heiti SC light';
+    }
+    
+    button {
+    max-width: 30%;
+    }
+    
+    .justify-content-left {
+    justify-content: center ;
+    }
+
+    img.product {
+        max-width:60%;
+    }
+    .center-section img { /*Centers img.product content inside column*/
+    margin: auto;    
+    display: block;
+    }}
